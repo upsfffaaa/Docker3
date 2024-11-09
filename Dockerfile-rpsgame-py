@@ -1,0 +1,4 @@
+FROM python:3.10-alpine
+WORKDIR /app
+COPY rpsgame-py/RockPaperScissorsGame.py .
+CMD ["python", "RockPaperScissorsGame.py"]

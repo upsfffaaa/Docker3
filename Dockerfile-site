@@ -1,0 +1,4 @@
+# Используем Nginx для сервировки статических файлов
+FROM nginx:alpine
+COPY site /usr/share/nginx/html
+EXPOSE 80
